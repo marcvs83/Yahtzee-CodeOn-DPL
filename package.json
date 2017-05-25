@@ -1,0 +1,37 @@
+{
+  "name": "Yahtzee-CodeOn-DPL",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "^0.4.0",
+    "react-native-scripts": "0.0.28",
+    "react-test-renderer": "16.0.0-alpha.6",
+    "remote-redux-devtools": "^0.5.7",
+    "remote-redux-devtools-on-debugger": "^0.7.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "postinstall": "remotedev-debugger --hostname localhost --port 5678 --injectserver"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^4.0.0",
+    "expo": "^16.0.0",
+    "native-base": "^2.1.2",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.43.4",
+    "react-native-drawer": "^2.3.0",
+    "react-native-easy-grid": "^0.1.8",
+    "react-redux": "^5.0.4",
+    "react-router-native": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  }
+}
